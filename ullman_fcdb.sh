@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the SQLite database file
-DB_FILE="/Users/vijayyepuri/Documents/sources/akash/ullman.db"
+DB_FILE="./ullman.db"
 
 # Remove the database file if it already exists
 if [ -f "$DB_FILE" ]; then
